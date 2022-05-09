@@ -40,7 +40,7 @@ int	main(void)
 		scanf("%d%d", &data.x, &data.y);
 		scanf("%d%d", &data.h_speed, &data.v_speed);
 		scanf("%d%d%d", &data.fuel, &data.rotate, &data.power);
-		if (data.v_speed < -30)
+		if (data.v_speed < -39)
 			printf("0 4\n");
 		else // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
 			printf("0 0\n");
