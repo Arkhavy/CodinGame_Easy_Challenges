@@ -49,4 +49,3 @@ int	main(void)
 	free (data.land_y);
 	return (0);
 }
-
